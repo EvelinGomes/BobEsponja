@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: skyblue;
+}
+
+.corpo {
+	height:330px;
+  	width: 270px;
+  	background: rgb(243, 247, 23);
+  	border: 2px solid #000;
+  	position: relative;
+  	margin: 100px auto;
+}
+
+.olho-direito {
+	background: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #000;
+	margin: 70px 33px;
+	position: absolute;
+}
+
+.olho-esquerdo {
+	background: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #000;
+	margin: 70px 150px;
+	position: absolute;
+}
+
+.azul-direito {
+	background: rgb(42, 110, 235);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #000;
+	margin: 90px 53px;
+	position: absolute;
+}
+
+.azul-esquerdo {
+	background: rgb(42, 110, 235);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #000;
+	margin: 90px 170px;
+	position: absolute;
+}
+
+.pupila-direita {
+	background: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #000;
+	margin: 103px 65px;
+	position: absolute;
+}
+
+.pupila-esquerda {
+	background: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #000;
+	margin: 103px 182px;
+	position: absolute;
+}
+
+.cilio1 {
+	position: absolute;
+	background: black;
+	width: 5px;
+	height: 30px;
+	top: 12%;
+	left: 27%;
+}
+
+.cilio2 {
+	position: absolute;
+	background: black;
+	width: 5px;
+	height: 30px;
+	top: 14%;
+	left: 36%;
+	transform: rotate(15deg);
+}
+
+.cilio3 {
+	position: absolute;
+	background: black;
+	width: 5px;
+	height: 30px;
+	top: 14%;
+	left: 18%;
+	transform: rotate(-15deg);
+}
+
+.cilio4 {
+	position: absolute;
+	background: black;
+	width: 5px;
+	height: 30px;
+	top: 12%;
+	left: 70%;
+}
+
+.cilio5 {
+	position: absolute;
+	background: black;
+	width: 5px;
+	height: 30px;
+	top: 14%;
+	left: 79%;
+	transform: rotate(15deg);
+}
+
+.cilio6 {
+	position: absolute;
+	background: black;
+	width: 5px;
+	height: 30px;
+	top: 14%;
+	left: 61%;
+	transform: rotate(-15deg);
+}
+
+.nariz {
+	border-top: 3px solid #000;
+	border-left: 3px solid #000;
+	border-right: 3px solid #000;
+	border-radius: 50%;
+	width: 20px;
+	height: 50px;
+	margin: ;
+	position: absolute;
+	top: 35%;
+  	left: 45%;
+}
+
+.boca {
+	background: black;
+	width: 120px;
+	height: 4px;
+	position: absolute;
+	top: 65%;
+	left: 28%;
+}
+
+.dente-esquerdo {
+	background: white;
+	border: 2px solid #000;
+	width: 20px;
+	height: 20px;
+	margin-left: 30px;
+	position: absolute;
+}
+
+.dente-direito {
+	background: white;
+	border: 2px solid #000;
+	width: 20px;
+	height: 20px;
+	margin-left: 68px;
+	position: absolute;
+}
+
+.bolinha1 {
+	background: greenyellow;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 20px 20px;
+	transform: rotate(10deg);
+}
+
+.bolinha2 {
+	background: greenyellow;
+	width: 10px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 50px 20px;
+}
+
+.bolinha3 {
+	background: greenyellow;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 270px 55px;
+	transform: rotate(7deg);
+}
+
+.bolinha4 {
+	background: greenyellow;
+	width: 10px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 250px 40px;
+	transform: rotate(7deg);
+}
+
+.bolinha5 {
+	background: greenyellow;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 235px 230px;
+	transform: rotate(7deg);
+}
+
+.bolinha6 {
+	background: greenyellow;
+	width: 10px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 265px 215px;
+	transform: rotate(7deg);
+}
+
+.bolinha7 {
+	background: greenyellow;
+	width: 10px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	position: absolute;
+	margin: 20px 240px;
+	transform: rotate(10deg);
+}
